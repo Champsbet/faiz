@@ -1,0 +1,52 @@
+# ---------------------
+# Logs
+# ---------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------------------
+# Node dependencies
+# ---------------------
+node_modules/
+
+# ---------------------
+# Build output
+# ---------------------
+# If you're deploying from dist (GitHub Pages), DO NOT ignore it
+# dist-ssr/ is usually for server-side rendered builds
+dist-ssr/
+
+# ---------------------
+# Environment variables
+# ---------------------
+.env
+.env.*
+
+# ---------------------
+# System files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# IDE / Editor settings
+# ---------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------------------
+# Local settings / misc
+# ---------------------
+*.local
+
